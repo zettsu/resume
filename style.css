@@ -212,6 +212,26 @@ h4.subtitle {
     font-size: 1rem;
 }
 
+h3.subtitle {
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+.text-justified {
+
+
+    text-align: justify;
+}
+
+.text-justified {
+    width: 80%;
+    text-align: justify;
+}
+
+.wrap-text {
+    white-space: pre-wrap;
+}
+
 .subtitle-left {
     font-size: 1.2rem;
     line-height: 1.45;
@@ -384,7 +404,15 @@ h4.subtitle {
     font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height: 1.75;
     color: #939393;
-    background: #fff;
+    width: 90%;
+    text-align: justify;
+}
+
+.custom-list li {
+    font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 200;
+    color: #939393;
 }
 
 @media (max-width: 420px) {
